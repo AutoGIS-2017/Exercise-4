@@ -35,15 +35,17 @@ This week we will practice how to do data classification and aggregation in Geop
     - pt_r_tt
     - car_r
  
- - Join the accessibility data files one by one with the Polygon grid and visualize them using the classification methods that we went through in the [lesson materials](https://automating-gis-processes.github.io/2016/Lesson4-reclassify.html). You can either:
+ - Join the accessibility data files one by one with the Polygon grid and visualize the **classified** travel times (Public transport AND Car) of at least one of the shopping centers using the classification methods that we went through in the [lesson materials](https://automating-gis-processes.github.io/2016/Lesson4-reclassify.html). You need to classify the data into a new column in your GeoDataFrame. For classification, you can either:
  
     - Use the [common classifiers from pysal](https://automating-gis-processes.github.io/2016/Lesson4-reclassify.html#classification-based-on-common-classifiers)
  
     - Or create your own [custom classifier](https://automating-gis-processes.github.io/2016/Lesson4-reclassify.html#creating-a-custom-classifier). If you create your own, remember to document it well how it works! Write a general description of it and comment your code as well. 
  
- - Upload the maps you have visualized into your own Exercise 4 repository (they don't need to be pretty).
+ - Upload the map(s) you have visualized into your own Exercise 4 repository (they don't need to be pretty). If visualizing takes for ever (as computer instance can be a bit slow), it is enough that you visualize only one map using plotting in Geopandas. If it is really slow, you can do the visualization also using the QuantumGIS in the computer instance or even ArcGIS in the GIS-lab (then you need to save the data as shapefiles and upload it to GitHub and download again to the local computer. 
 
 ## Problem 2: Calculate and visualize the dominance areas of shopping centers
+
+In this problem, the aim is to define the dominance area for each of those shopping centers based on
 
 ## Problem 3 (optional): How many people live under the dominance area of each shopping centers?
 
