@@ -37,9 +37,9 @@ This week we will practice how to do data classification and aggregation in Geop
  
  3. Join the accessibility data files one by one with the Polygon grid and visualize them using the classification methods that we went through in the [lesson materials](https://automating-gis-processes.github.io/2016/Lesson4-reclassify.html). You can either:
  
- - Use the [common classifiers from pysal](https://automating-gis-processes.github.io/2016/Lesson4-reclassify.html#classification-based-on-common-classifiers)
+   - Use the [common classifiers from pysal](https://automating-gis-processes.github.io/2016/Lesson4-reclassify.html#classification-based-on-common-classifiers)
  
- - Or create your own [custom classifier](https://automating-gis-processes.github.io/2016/Lesson4-reclassify.html#creating-a-custom-classifier). If you create your own, remember to document it well how it works! Write a general description of it and comment your code as well. 
+   - Or create your own [custom classifier](https://automating-gis-processes.github.io/2016/Lesson4-reclassify.html#creating-a-custom-classifier). If you create your own, remember to document it well how it works! Write a general description of it and comment your code as well. 
  
 4. Upload the maps into your own Exercise 4 repository (they don't need to be pretty).
 
