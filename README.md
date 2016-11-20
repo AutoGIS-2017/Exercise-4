@@ -17,9 +17,9 @@ This week we will practice how to do data classification and aggregation in Geop
 
 ## Sections
 
- - [Problem 1: Join accessibility datasets into a single GeoDataFrame and visualize it]()
- - [Problem 2: Calculate and visualize the dominance areas of shopping centers]()
- - [Problem 3 (optional): How many people live under the dominance area of each shopping centers?]()
+ - [Problem 1: Join accessibility datasets into a single GeoDataFrame and visualize it](#problem-1-join-accessibility-datasets-into-a-single-geodataframe-and-visualize-it#problem-2-calculate-and-visualize-the-dominance-areas-of-shopping-centers)
+ - [Problem 2: Calculate and visualize the dominance areas of shopping centers](#problem-2-calculate-and-visualize-the-dominance-areas-of-shopping-centers)
+ - [Problem 3 (optional): How many people live under the dominance area of each shopping centers?](#problem-3-optional-how-many-people-live-under-the-dominance-area-of-each-shopping-centers)
  - [Answers](#answers)
  - [Hints](#hints)
 
