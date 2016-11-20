@@ -45,9 +45,19 @@ This week we will practice how to do data classification and aggregation in Geop
 
 ## Problem 2: Calculate and visualize the dominance areas of shopping centers
 
-In this problem, the aim is to define the dominance area for each of those shopping centers based on
+In this problem, the aim is to define the dominance area for each of those shopping centers based on travel time. 
+
+How you should proceed with the problem is that 
+
+ - you iterate over the accessibility files one by one
+ - rename the travel time columns so that they can be identified 
+   - you can include e.g. the to_id number as part of the column name (then the column name could be e.g. pt_r_tt_5987221)
+   - you can also take advantage of the name included in the data file (then the column name could be e.g. pt_r_tt_Itis
+ - Join those columns into MetropAccess_YKR_grid_EurefFIN.shp 
 
 ## Problem 3 (optional): How many people live under the dominance area of each shopping centers?
+
+Take advantage of the materials last week and find out how many people live under the dominance area of each shopping center. 
 
 ## Answers
 
