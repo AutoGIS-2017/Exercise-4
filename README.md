@@ -34,7 +34,9 @@ This week we will practice how to do data classification and aggregation in Geop
     - pt_r_tt
     - car_r
  
- - Join the accessibility data files one by one with the Polygon grid and visualize the **classified** travel times (Public transport AND Car) of at least one of the shopping centers using the classification methods that we went through in the [lesson materials](https://automating-gis-processes.github.io/2016/Lesson4-reclassify.html). You need to classify the data into a new column in your GeoDataFrame. For classification, you can either:
+ - Join the accessibility data files one by one with the Polygon grid and make an `intersect` overlay analysis with Helsinki borders in a similar manner than was introduced in our [https://automating-gis-processes.github.io/2016/lesson materials](Lesson4-geometric-operations.html).
+  
+ - Visualize the **classified** travel times (Public transport AND Car) of at least one of the shopping centers using the classification methods that we went through in the [lesson materials](https://automating-gis-processes.github.io/2016/Lesson4-reclassify.html). You need to classify the data into a new column in your GeoDataFrame. For classification, you can either:
  
     - Use the [common classifiers from pysal](https://automating-gis-processes.github.io/2016/Lesson4-reclassify.html#classification-based-on-common-classifiers)
  
