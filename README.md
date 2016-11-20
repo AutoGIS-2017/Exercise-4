@@ -53,3 +53,4 @@ In this problem, the aim is to define the dominance area for each of those shopp
 
 ## Hints
 
+If you need more help with the exercise, [**read the hints**](https://github.com/Automating-GIS-processes/Lesson-4-Classification-overlay/blob/master/Lesson/Exercise4-hints.md).
