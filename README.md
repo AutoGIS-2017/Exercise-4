@@ -47,13 +47,16 @@ This week we will practice how to do data classification and aggregation in Geop
 
 In this problem, the aim is to define the dominance area for each of those shopping centers based on travel time. 
 
-How you should proceed with the problem is that 
+How you could proceed with the given problem is: 
 
- - you iterate over the accessibility files one by one
+ - iterate over the accessibility files one by one
  - rename the travel time columns so that they can be identified 
-   - you can include e.g. the to_id number as part of the column name (then the column name could be e.g. pt_r_tt_5987221)
-   - you can also take advantage of the name included in the data file (then the column name could be e.g. pt_r_tt_Itis
- - Join those columns into MetropAccess_YKR_grid_EurefFIN.shp 
+   - you can include e.g. the `to_id` number as part of the column name (then the column name could be e.g. "pt_r_tt_5987221")
+ - Join those columns into MetropAccess_YKR_grid_EurefFIN.shp where `YKR_ID` in the grid corresponds to `from_id` in the travel time data file. At the end you should have a GeoDataFrame with different columns show the travel times to different shopping centers.
+ - For each row find out the **minimum** value of **all** pt_r_tt_XXXXXX columns and insert that value into a new column called `min_time_pt`. You can now also parse the `to_id` value from the column name (i.e. parse the last number-series from the column text) that had the minimum travel time value and insert that value **as a number** into a column called `dominant_service`. In this, way are able to determine the "closest" shopping center for each grid cell and visualize it either by travel times or by using the `YKR_ID` number of the shopping center (i.e. that number series that was used in column name).
+ - Visualize the travel times of our `min_time_pt` column using a [common classifier from pysal](https://automating-gis-processes.github.io/2016/Lesson4-reclassify.html#classification-based-on-common-classifiers) (you can choose which one). 
+ - Visualize also the values in `dominant_service` column (no need to use any specific classifier). Notice that the value should be a number. If it is still as text, you need to convert it first.
+ - Upload the map(s) you have visualized into your own Exercise 4 repository (they don't need to be pretty).
 
 ## Problem 3 (optional): How many people live under the dominance area of each shopping centers?
 
