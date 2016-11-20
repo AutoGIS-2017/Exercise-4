@@ -22,7 +22,7 @@ This week we will practice how to do data classification and aggregation in Geop
  - [Answers](#answers)
  - [Hints](#hints)
 
-## Problem 1: Join accessibility datasets into a single GeoDataFrame and visualize it
+## Problem 1: Join accessibility datasets into a grid and visualize them by using a classifier
 
  - Download a dataset from here that includes 8 text files containing data about accessibility in Helsinki Region and a Shapefile that contains a Polygon grid that can be used to visualize and analyze the data spatially. The datasets are:
  
@@ -57,7 +57,7 @@ How you could proceed with the given problem is:
  - Visualize also the values in `dominant_service` column (no need to use any specific classifier). Notice that the value should be a number. If it is still as text, you need to convert it first.
  - Upload the map(s) you have visualized into your own Exercise 4 repository (they don't need to be pretty).
 
-## Problem 3 (optional): How many people live under the dominance area of each shopping centers?
+## Problem 3 (optional): How many people live under the dominance area of each shopping center?
 
 Take advantage of the materials last week and find out how many people live under the dominance area of each shopping center. You should first [aggregate](http://geopandas.org/aggregation_with_dissolve.html) your dominance areas into a unified geometries using [`dissolve()`](http://geopandas.org/aggregation_with_dissolve.html#dissolve-example) -function in Geopandas. 
 
