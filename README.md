@@ -61,7 +61,7 @@ How you could proceed with the given problem is:
 
 ## Problem 3 (optional): How many people live under the dominance area of each shopping center?
 
-Take advantage of the materials last week and find out how many people live under the dominance area of each shopping center. You should first [aggregate](http://geopandas.org/aggregation_with_dissolve.html) your dominance areas into a unified geometries using [`dissolve()`](http://geopandas.org/aggregation_with_dissolve.html#dissolve-example) -function in Geopandas. 
+Take advantage of the materials last week and find out how many people live under the dominance area of each shopping center. You should first [aggregate](file:///D:/KOODIT/Opetus/Automating-GIS-processes/AutoGIS-Sphinx/build/html/Lesson4-geometric-operations.html#aggregating-data) your dominance areas into a unified geometries using [`dissolve()`](http://geopandas.org/aggregation_with_dissolve.html#dissolve-example) -function in Geopandas. 
 
 ## Answers
 
