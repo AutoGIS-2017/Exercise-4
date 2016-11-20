@@ -1,5 +1,4 @@
-# Exercise-4
-Exercise-4: Data classification and overlay analysis
+# Exercise 4
 
 This week we will practice how to do data classification and aggregation in Geopandas. We continue from the last week's exerise with rather similar idea. The overall aim this week is to define *dominance areas* \[0\] for 8 shopping centers in Helsinki with different travel modes (Public tranport, private car). The last step (optional) is to find out how many people live within the dominance areas of those big shopping centers in Helsinki Region. 
 
@@ -60,9 +59,11 @@ How you could proceed with the given problem is:
 
 ## Problem 3 (optional): How many people live under the dominance area of each shopping centers?
 
-Take advantage of the materials last week and find out how many people live under the dominance area of each shopping center. 
+Take advantage of the materials last week and find out how many people live under the dominance area of each shopping center. You should first [aggregate](http://geopandas.org/aggregation_with_dissolve.html) your dominance areas into a unified geometries using [`dissolve()`](http://geopandas.org/aggregation_with_dissolve.html#dissolve-example) -function in Geopandas. 
 
 ## Answers
+
+Write your answers for (optional) problem 3 here. 
 
 ## Hints
 
