@@ -24,9 +24,11 @@ This week we will practice how to do data classification and aggregation in Geop
 
 ## Problem 1: Join accessibility datasets into a grid and visualize them by using a classifier
 
- - Download a dataset from here that includes 8 text files containing data about accessibility in Helsinki Region and a Shapefile that contains a Polygon grid that can be used to visualize and analyze the data spatially. The datasets are:
+**Steps:**
+
+ - Download a dataset from [**here**](https://github.com/Automating-GIS-processes/Lesson-4-Classification-overlay/raw/master/data/dataE4.zip) that includes 7 text files containing data about accessibility in Helsinki Region and a Shapefile that contains a Polygon grid that can be used to visualize and analyze the data spatially. The datasets are:
  
-     - `travel_times_to_XX.txt` including travel times to specific shopping center
+     - `travel_times_to_[XXXXXXX]_[NAME-OF-THE-CENTER].txt` including travel times and road network distances to specific shopping center
      - `MetropAccess_YKR_grid_EurefFIN.shp` including the Polygon grid with YKR_ID column that can be used to join the grid with the    accessibility data
 
  - Read those travel_time data files (one by one) with Pandas and select only following columns from them:
