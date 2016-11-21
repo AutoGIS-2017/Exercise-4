@@ -38,7 +38,7 @@ This week we will practice how to do data classification and aggregation in Geop
     - from_id
     - to_id
  
- - ~~Join the accessibility data files one by one with the Polygon grid and make an `intersect` overlay analysis with Helsinki borders in a similar manner than was introduced in our [lesson materials](https://automating-gis-processes.github.io/2016/Lesson4-geometric-operations.html).~~ (_ **Update**: As it is really slow to do the overlay analysis with our computer instance, this step will be skipped (+ it is not logical because we try to look at the patterns on whole Helsinki Region)._
+ - ~~Join the accessibility data files one by one with the Polygon grid and make an `intersect` overlay analysis with Helsinki borders in a similar manner than was introduced in our [lesson materials](https://automating-gis-processes.github.io/2016/Lesson4-geometric-operations.html).~~ ( _**Update**: As it is really slow to do the overlay analysis with our computer instance, this step will be skipped (+ it is not logical because we try to look at the patterns on whole Helsinki Region). _
   
  - Visualize the **classified** travel times (Public transport AND Car) of at least one of the shopping centers using the classification methods that we went through in the [lesson materials](https://automating-gis-processes.github.io/2016/Lesson4-reclassify.html). You need to classify the data into a new column in your GeoDataFrame. For classification, you can either:
  
