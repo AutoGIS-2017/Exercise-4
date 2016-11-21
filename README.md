@@ -34,7 +34,9 @@ This week we will practice how to do data classification and aggregation in Geop
  - Read those travel_time data files (one by one) with Pandas and select only following columns from them:
     
     - pt_r_tt
-    - car_r
+    - car_r_t
+    - from_id
+    - to_id
  
  - Join the accessibility data files one by one with the Polygon grid and make an `intersect` overlay analysis with Helsinki borders in a similar manner than was introduced in our [lesson materials](https://automating-gis-processes.github.io/2016/Lesson4-geometric-operations.html).
   
