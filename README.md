@@ -8,7 +8,7 @@ The last step (optional) is to find out how many people live within the dominanc
 
 \[0\]: Here, we define the dominance area of a service as the geographical area from where the given service (shopping center) is the closest one to reach in terms of travel time.
 
-- **Exercise 3 is due by the start of lecture on 27.11**.
+- **Exercise 4 is due by the start of lecture on 27.11**.
 
 - Don't forget to check out the [hints for this week's exercise](https://automating-gis-processes.github.io/2017/lessons/L4/exercise-4-hints.html) if you're having trouble.
 
