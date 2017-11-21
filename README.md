@@ -30,7 +30,7 @@ The last step (optional) is to find out how many people live within the dominanc
     - from_id
     - to_id
   
- - Visualize the **classified** travel times (Public transport AND Car) of at least one of the shopping centers using the classification methods that we went through in the [lesson materials](https://automating-gis-processes.github.io/2016/Lesson4-reclassify.html). You need to classify the data into a new column in your GeoDataFrame. For classification, you can either:
+ - Visualize the **classified** travel times (Public transport AND Car) of at least one of the shopping centers using the classification methods that we went through in the [lesson materials](https://automating-gis-processes.github.io/2017/lessons/L4/reclassify.html). You need to classify the data into a new column in your GeoDataFrame. For classification, you can either:
  
     - Use the [common classifiers from pysal](https://automating-gis-processes.github.io/2017/lessons/L4/reclassify.html#classification-based-on-common-classifiers)
  
