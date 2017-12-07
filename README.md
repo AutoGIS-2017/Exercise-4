@@ -2,7 +2,7 @@
 
 This week we will practice how to do data classification and aggregation in Geopandas. We continue from the last week's exerise with rather similar idea.
 The overall aim this week is to define *dominance areas* \[0\] for 8 shopping centers in Helsinki with different travel modes (Public tranport, private car).
-The last step (optional) is to find out how many people live within the dominance areas of those big shopping centers in Helsinki Region.
+The last step is to find out how many people live within the dominance areas of those big shopping centers in Helsinki Region.
 
 *The exercise might be a rather demanding one, so don't panic, the assistants will help you and we will go through the exercise in the following week.*
 
